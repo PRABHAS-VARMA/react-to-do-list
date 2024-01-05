@@ -61,3 +61,8 @@ li button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#add{
+  color: white;
+  background-color: #3639f4;
+}

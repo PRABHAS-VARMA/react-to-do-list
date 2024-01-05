@@ -53,7 +53,8 @@ class App extends Component {
             onChange={this.handleInputChange}
             placeholder="Enter task..."
           />
-          <button onClick={this.handleAddTask}>Add Item</button>
+          <button id="add"
+           onClick={this.handleAddTask}>Add Item</button>
         </div>
         <ul>
           {this.state.tasks.map((task, index) => (
